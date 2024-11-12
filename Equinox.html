@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perchero Equinox</title>
+    <style>
+        /* Paleta de colores */
+        :root {
+            --fondo: #F5F0DB;  /* Color de fondo claro */
+            --texto-oscuro: #333333;  /* Texto oscuro */
+            --principal: #000000;  /* Color principal */
+            --acento: #d35400;  /* Color de acento */
+            --boton: #403739;  /* Color de botón */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: var(--fondo);
+            color: var(--texto-oscuro);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--principal);
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: var(--acento);
+            margin: 10px 0;
+        }
+
+        .buy-button {
+            background-color: var(--boton);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .buy-button:hover {
+            background-color: #1e8449;
+        }
+
+        /* Estilo para los enlaces */
+        a {
+            color: var(--principal); /* Cambia el color para que se vea */
+            text-decoration: none; /* Elimina el subrayado si lo deseas */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subraya el enlace cuando se pasa el ratón */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Perchero Equinox</h1>
+    <img src="C:\Users\kim82\OneDrive\바탕 화면\UP\2024 Semestre 2\Diseño de productos II\Momento 3\Infografías\Recursos\entrega final final posta\html\Perchero final final final final render.png" alt="Perchero Equinox" class="product-image">
+    <p class="description">
+        El perchero "Equinox" es el equilibrio perfecto entre diseño y funcionalidad. Fabricado en madera de pino con detalles de terciado, su estructura se destaca por su estabilidad y estética. Con una base sólida y un diseño compacto, "Equinox" es ideal para cualquier espacio moderno.
+    </p>
+    <p class="price">$120.00</p>
+    <button class="buy-button" onclick="window.location.href='compra_equinox.html';">Comprar Ahora</button>
+    <!-- Aquí agregamos el enlace -->
+    <a href="https://www.chank15.github.io" class="link" target="_blank">Visitar nuestro sitio web para más detalles</a>
+</div>
+
+</body>
+</html>
+
